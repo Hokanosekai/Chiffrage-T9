@@ -1,0 +1,8 @@
+Données: un tableau tab de taille n
+
+pour i<-1 à n-1 faire
+    si tab[i] > tab[i+1] alors
+        return False
+    sinon
+        return True
+    finsi
